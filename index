@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>芯漾生醫 法規裁罰案例分析</title>
+<style>
+:root { --primary: #7f1d1d; --accent: #dc2626; --bg: #faf5f5; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Segoe UI', 'Microsoft JhengHei', sans-serif; background: var(--bg); color: #2c3e50; }
+header { background: linear-gradient(135deg, #1e1b2e, #2d1f3d 40%, #7f1d1d); color: white; padding: 60px 20px; text-align: center; }
+header h1 { font-size: 2.2em; margin-bottom: 8px; }
+header p { opacity: 0.85; font-size: 1.1em; }
+header .subtitle { opacity: 0.6; font-size: 0.85em; margin-top: 8px; }
+.container { max-width: 800px; margin: 40px auto; padding: 0 20px; }
+.report-list { list-style: none; }
+.report-list li { margin-bottom: 16px; }
+.report-list a {
+  display: block; padding: 24px; background: white; border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08); text-decoration: none; color: var(--primary);
+  font-size: 1.15em; font-weight: 600; transition: all 0.2s;
+  border-left: 4px solid var(--accent);
+}
+.report-list a:hover { transform: translateX(8px); box-shadow: 0 4px 16px rgba(0,0,0,0.12); }
+.report-list .date { font-size: 0.8em; color: #95a5a6; font-weight: 400; margin-top: 4px; }
+.report-list .tag { display: inline-block; font-size: 0.65em; padding: 2px 8px; border-radius: 4px; margin-left: 8px; vertical-align: middle; font-weight: 400; background: #fdecea; color: #c0392b; }
+.info-box { background: white; border-radius: 12px; padding: 24px; margin-bottom: 30px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); border-left: 4px solid #6366f1; }
+.info-box h3 { font-size: 1em; color: #4338ca; margin-bottom: 8px; }
+.info-box p { font-size: 0.85em; color: #64748b; line-height: 1.6; }
+footer { text-align: center; padding: 40px; color: #95a5a6; font-size: 0.85em; }
+</style>
+</head>
+<body>
+<header>
+  <h1>⚖️ 芯漾生醫 法規裁罰案例分析</h1>
+  <p>Dr.Nutri Supplement Law Penalty Reports</p>
+  <div class="subtitle">台灣保健食品廣告違規真實裁罰案例統計分析</div>
+</header>
+<div class="container">
+  <div class="info-box">
+    <h3>📋 關於本站</h3>
+    <p>收錄台灣各縣市衛生局公開裁罰統計表中的保健食品違規案例，進行多維度互動分析。<br>
+    涵蓋：危險字句排行（通路 × 地區篩選）、身體系統分類（drill-down 展開）、違規模式、風險矩陣、罰鍰排行等。</p>
+  </div>
+  <ul class="report-list">
+    <!-- 最新報告放最上面 -->
+    <li><a href="reports/2026-03-裁罰案例統計分析.html">裁罰案例統計分析（256 筆真實案例）<span class="tag">⚖️ 256 筆</span>
+      <div class="date">報告產出：2026-03-15 ｜ 含通路篩選 × 地區篩選 × 身體系統 drill-down ｜ 來源：桃園 149 / 臺北 97 / 新竹 10</div></a></li>
+  </ul>
+</div>
+<footer>芯漾生醫 Dr.Nutri ｜ Powered by Claude</footer>
+</body>
+</html>
