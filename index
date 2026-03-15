@@ -44,7 +44,7 @@ footer { text-align: center; padding: 40px; color: #95a5a6; font-size: 0.85em; }
   </div>
   <ul class="report-list">
     <!-- 最新報告放最上面 -->
-    <li><a href="reports/2026-03-裁罰案例統計分析.html">裁罰案例統計分析（256 筆真實案例）<span class="tag">⚖️ 256 筆</span>
+    <li><a href="2026-03-裁罰案例統計分析.html">裁罰案例統計分析（256 筆真實案例）<span class="tag">⚖️ 256 筆</span>
       <div class="date">報告產出：2026-03-15 ｜ 含通路篩選 × 地區篩選 × 身體系統 drill-down ｜ 來源：桃園 149 / 臺北 97 / 新竹 10</div></a></li>
   </ul>
 </div>
